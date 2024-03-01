@@ -12,7 +12,7 @@ CORS(app)
 
 @app.route("/")
 def hello():
-    return render_template("index.html")
+    return 'Hello World'
 
 @app.route('/hi/isha', methods=['POST'])
 async def isha():
